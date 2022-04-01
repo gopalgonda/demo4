@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+
+ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.container-fluid{
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.clear{
+  clear: both;
+}
+
+
+.main-wrapper{
+  margin-top: 100px;
+}
+
+
+/* products css */
+
+
+
+
+
+.item_product {
+    text-align: center;
+    padding: 20px;
+    margin: 40px;
+  }
+  
+  .item_product p {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+  
+  }
+  .item_product .btn-primary {
+    width: 100%;
+  }
+  .item_product img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    transition: 0.3s ease-in-out;
+  }
+  .item_product img:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+  }
+  

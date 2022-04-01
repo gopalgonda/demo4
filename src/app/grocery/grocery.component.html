@@ -1,0 +1,33 @@
+<div class="">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3" *ngFor="let items of productList">
+                <div class="item_product">
+                    <div routerLink="/view">
+                        <img src="{{items.image}}" class="img-fluid" alt="">
+                        <h5 style="white-space: nowrap;
+                                    overflow: hidden;
+                                    text-overflow: ellipsis;
+                                    max-width: 100ch;">
+                            {{items.title}}
+                        </h5>
+                        <p style="white-space: nowrap;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                                max-width: 100ch;">
+                            {{items.description}}
+                        </p>
+                        <p>
+                            <strong>Price $ {{items.price}}</strong>
+                        </p>
+                    </div>
+                    <button class="btn btn-primary" (click)="addtocart(items)">
+                        Add to cart
+                    </button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</div>

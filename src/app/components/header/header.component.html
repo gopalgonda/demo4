@@ -1,0 +1,44 @@
+<div class="toolbar shadow-sm" role="banner">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2">
+       <a routerLink="/">
+         <img width="100" alt="Flipkart Logo" src="../assets/uploads/logo/flipkart-plus_8d85f4.png"/>
+       </a>
+      </div>
+
+      <div class="col-md-6">
+
+        <form action="#">
+          <div class="search_box">
+            <input type="text" name="search" class="form-control search"
+                   placeholder="Search for products, brands and more">
+            <a href="#" class="search_icon">
+              <i class="fa fa-search"></i>
+            </a>
+          </div>
+        </form>
+
+      </div>
+
+      <div class="col-md-4">
+        <!-- <app-dropdown></app-dropdown> -->
+
+        <div class="right_menus">
+          <a href="#" class="btn-login ">
+            Login
+          </a>
+          <a href="#" class="btn-more">
+            More
+          </a>
+          <a routerLink="cart" class="cart-icon">
+            <i class="fa fa-shopping-cart "></i>
+            <span style="font-size: 10px;" class="badge-cart bg-danger">{{totalItem}}</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+

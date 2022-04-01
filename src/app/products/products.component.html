@@ -1,0 +1,28 @@
+<div class="main-wrapper">
+  <div class="container-fluid ">
+    <div class="row">
+      <div class="card col-md-3" [class.selected]="isSelected(item)" *ngFor="let item of productList">
+        <div class="item_product">
+          <div routerLink="/product/{{item.id}}">
+            <img src="{{item.image}}" class="img-fluid" alt="">
+            <h5 style="white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                max-width: 100ch;">{{item.title}}
+            </h5>
+            <p style="white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                max-width: 100ch;">{{item.description}}
+            </p>
+            <p><Strong>Price: </Strong>${{item.price}}</p>
+          </div>
+          <button class="btn btn-primary" (click)="addtocart(item)">
+            Add to cart
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>

@@ -1,0 +1,27 @@
+
+.categories_main{
+    padding: 10px 0px;
+    box-shadow: 4px 0 20px -5px rgb(0 0 0 / 20%);
+}
+
+.categories_menus{
+    text-align: center;
+}
+
+
+.categories_menus img{
+   width: 100px;
+}
+.categories_menus span{
+  color: #000;
+  font-size: 13px;
+  font-weight: 500;
+  position: relative;
+  top: -15px;
+}
+
+.categories_menus ul li{
+    float: left;
+    padding: 0px 15px;
+  cursor: pointer;
+}

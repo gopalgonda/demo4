@@ -1,0 +1,253 @@
+.product-title {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.rating {
+    background: #388e3c;
+    padding: 5px 8px;
+    color: #fff;
+    border-radius: 5px;
+}
+.special_price {
+    color: #388e3c;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.prices {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.prices span {
+    padding: 0px 10px;
+    font-size: 16px;
+}
+.prices .old_price {
+    color: #878787;
+}
+.prices .offer {
+    color: #388e3c;
+}
+.or_pay {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.bank_offser {
+    padding: 5px 0px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.bank_offser i {
+    color: #388e3c;
+    padding: 5px;
+    font-size: 18px;
+}
+.bank_offser .tc {
+    color: #2874f0;
+    padding: 5px 9px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.bank_offser .bank_offser_strong {
+    color: #000000;
+    padding: 5px 6px;
+    font-size: 16px;
+}
+.year_more {
+    padding: 5px 0px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.year_more .year1 {
+    color: #000000;
+    padding-left: 30px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.year_more .tc {
+    color: #2874f0;
+    padding: 5px 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.delivery {
+    padding: 5px 0px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.delivery p {
+    position: relative;
+    top: 14px;
+}
+.pincode_form {
+    padding: 5px 25px;
+    width: 600px;
+    margin: auto;
+}
+.pincode_form input {
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid #2874f0;
+}
+.pincode_form .l_mark {
+    color: #2874f0;
+    position: relative;
+    top: 13px;
+    left: 10px;
+}
+
+input::placeholder {
+    font-weight: 700;
+    padding: 5px 10px;
+}
+input:focus {
+    border: none;
+}
+.pincode_form .change_pincode {
+    color: #2874f0;
+    position: relative;
+    top: 10px;
+    left: -56px;
+    font-size: 15px;
+}
+
+.delivery_description {
+    padding: 5px 25px;
+}
+.delivery_description span {
+    padding: 5px 5px;
+    margin-left: 10px;
+}
+.free {
+    color: #388e3c;
+    font-weight: 700;
+}
+.free del {
+    padding: 0px 6px;
+    color: #878787;
+}
+.question {
+    border-radius: 50%;
+    background-color: #fff;
+    color: #878787;
+    font-weight: 500;
+    width: 16px;
+    height: 16px;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 0 1px 0 rgb(0 0 0 / 20%);
+    vertical-align: middle;
+    margin: 0 2px 0 8px;
+    cursor: pointer;
+}
+
+.left_images ul li {
+    padding: 5px;
+}
+
+.colors {
+    padding: 10px 0px;
+}
+.colors ul {
+    list-style-type: none;
+}
+.colors ul li {
+    display: inline;
+    padding: 10px;
+    margin-top: 20px;
+}
+.highlights,
+.highlights_services {
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+.highlights ul {
+    position: relative;
+}
+.highlights ul li {
+    padding: 5px 30px;
+    /* line-height: 10px; */
+    font-size: 16px;
+    font-weight: 500;
+}
+.highlights ul li::before {
+    content: "\f111";
+    font-family: FontAwesome;
+    font-size: 14px;
+    position: absolute;
+    left: 0;
+}
+
+.highlights_services li {
+    font-size: 11px;
+    font-weight: 600;
+    display: inline;
+    padding-left: 30px;
+}
+.highlights_services .fa {
+    color: #2874f0;
+    padding: 0px 7px;
+}
+
+.seller {
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+.seller p {
+    font-size: 16px;
+    font-weight: 600;
+}
+.seller h5 {
+    color: #2874f0;
+}
+.seller .seller_ratting {
+    font-size: 11px;
+    position: relative;
+    top: -3px;
+    left: 10px;
+    background: #2874f0;
+    padding: 3px 10px;
+    color: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.corseca li {
+    font-size: 16px;
+    padding: 5px 0px;
+}
+.description {
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+.description p {
+    font-size: 16px;
+    font-weight: 600;
+}
+.description_p {
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+.description_p p {
+    font-size: 16px;
+}
+.product_description {
+    margin-top: 30px;
+    padding: 10px 0px;
+}
+.product_description p {
+    font-size: 16px;
+    font-weight: 600;
+}
+.product_description_p {
+    margin-top: 30px;
+    padding: 0px 0px;
+}
+.product_description_p p {
+    font-size: 16px;
+}

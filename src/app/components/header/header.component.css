@@ -1,0 +1,97 @@
+
+.spacer {
+  flex: 1;
+}
+
+.toolbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #1976d2;
+  color: white;
+  font-weight: 600;
+}
+
+.toolbar img {
+  margin: 8px 16px;
+}
+
+.toolbar #twitter-logo {
+  height: 40px;
+  margin: 0 8px;
+}
+
+.toolbar #youtube-logo {
+  height: 40px;
+  margin: 0 16px;
+}
+
+.toolbar #twitter-logo:hover,
+.toolbar #youtube-logo:hover {
+  opacity: 0.8;
+}
+
+
+.search::placeholder{
+  font-size: 13px;
+}
+.search_box{
+  position: relative;
+}
+.search_box .search_icon{
+  position: absolute;
+  top: -11px;
+  right: 0;
+  padding: 15px;
+  font-size: 19px;
+}
+
+.right_menus a{
+  margin: 0px 25px;
+
+}
+.badge-cart{
+  padding: 3px 7px;
+  text-align: left;
+  border-radius: 50px;
+}
+.right_menus .btn-login {
+  background-color: #ffff;
+  color: #2874f0;
+  font-weight: 600;
+  padding: 6px 20px;
+}
+.right_menus .btn-more {
+  background-color: transparent;
+  color: #fff;
+  font-weight: 600;
+  padding: 6px 20px;
+  position: relative;
+}
+.right_menus .btn-more::before {
+  content: "\f107";
+  font-family: fontAwesome;
+  position: absolute;
+  top: 7px;
+  right: 10px;
+}
+.right_menus .btn-more:hover:before {
+  content: "\f106";
+  font-family: fontAwesome;
+  position: absolute;
+  top: 7px;
+  right: 10px;
+}
+.right_menus .cart-icon {
+  color: #fff;
+  font-size: 25px;
+}
+
+
+
+
+

@@ -1,0 +1,36 @@
+footer{
+  background-color: #172337;
+  width: 100%;
+  padding: 20px 0px;
+}
+
+
+.footer_heading {
+  padding: 10px 0px;
+  margin: 0px 10px;
+}
+.footer_heading h6{
+  padding: 10px;
+}
+h6 , p{
+  color: #c2c3c4;
+}
+
+.register_address li{
+  color: #c2c3c4;
+  padding: 2px 0px;
+  font-size: 12px;
+}
+.footer_menus{
+  padding: 5px 0px;
+}
+.footer_menus ul li{
+  padding: 2px 0px;
+}
+.footer_menus ul li a{
+  color: #c2c3c4;
+}
+.footer_menus ul li a:hover{
+  text-decoration: underline;
+}
+

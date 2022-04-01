@@ -1,0 +1,271 @@
+
+<div class="main-wrapper">
+  <section class="products_views">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-4 col-sm-12 ">
+          <div class="row imagesl">
+            <div class="col-md-2">
+              <div class="left_images">
+                <ul>
+                  <li *ngFor="let proImgs of productImgs">
+                    <a>
+                      <img [src]="proImgs.pImgs" class="img-fluid" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-10">
+              <div class="text-center">
+                <img src="assets/uploads/products/hed1.webp" class="img-fluid" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-8 col-sm-12">
+          <div class="product_details">
+            <h5 class="product-title">
+              boAt Rockerz 255F Bluetooth Headset (Neon, In the Ear)#JustHere
+            </h5>
+            <p>
+              <strong class="rating">4.2 <i class="fa fa-star"></i></strong>
+              9,18,931 Ratings & 81,379 Reviews <img src="assets/uploads/products/fa_62673a.png" width="70" />
+            </p>
+            <p class="special_price">
+              Special price
+            </p>
+            <h3 class="prices">
+              <i class="fa fa-inr"></i> 999
+              <span class="old_price"> <del><i class="fa fa-inr"></i>2.990</del> </span>
+              <span class="offer"> 66% Off</span>
+            </h3>
+            <p class="or_pay">
+              Or Pay ₹969 + <img src="assets/uploads/products/coine.webp" width="20" /> 30
+            </p>
+
+            <h5>
+              Available offers
+            </h5>
+
+            <p class="bank_offser" *ngFor="let viewD of viewDetails">
+              <!-- <i class="viewD.icon"></i> -->
+              <i [ngClass]="viewD.icon"></i>
+              <span class="bank_offser_strong">{{viewD.bank_offer}}</span>
+              {{viewD.view_description}}
+              <a href="#" class="tc">{{viewD.tAndC}}</a>
+            </p>
+
+
+
+            <div class="row">
+              <div class="col-md-3">
+                <p class="year_more">
+                  <img src="assets/uploads/products/boat.webp"  width="100" />
+                </p>
+                <div class="delivery">
+                  <p>
+                    Delivery
+                  </p>
+
+                </div>
+                <div class="delivery">
+                  <p>
+                    &ensp;
+                  </p>
+
+                </div>
+                <div class="delivery">
+                  <p>
+                    Colors
+                  </p>
+
+                </div>
+                <div class="delivery highlights">
+                  <p>
+                    Highlights
+                  </p>
+
+                </div>
+
+              </div>
+              <div class="col-md-9">
+                <p class="year_more">
+
+                  <span class="year1">1 year</span> <a href="" class="tc">Know More</a>
+                </p>
+                <div class="delivery">
+
+                  <form action="" class="d-flex pincode_form">
+                    <i class="fa fa-map-marker l_mark"></i>
+                    <input type="text" class="form-control" placeholder="Enter Deliver Pincode" />
+                    <span class="change_pincode">Change</span>
+
+                  </form>
+
+                </div>
+                <div class="delivery_description" *ngFor="let delDtaa of delDescription">
+
+                  <span> {{delDtaa.deliveryData}}</span>|
+                  <span class="free">{{delDtaa.free}}
+                    <del><i [ngClass]="delDtaa.free"></i>{{delDtaa.freeDlePrice}}</del>
+                                </span>
+                  <a class="question">?</a>
+
+                </div>
+                <div class="colors">
+                  <ul>
+                    <li *ngFor="let colorsImg of selectColor">
+                      <a href="#">
+                        <img [src]="colorsImg.color" width="50" alt="">
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="row">
+                  <div class="col-md-6 col-sm-12">
+                    <div class="highlights">
+                      <ul>
+                        <li *ngFor="let hglts of highlights">
+                          {{hglts.name}}
+                        </li>
+
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                    <div class="highlights_services ">
+                      <ul>
+                        <li>Services</li>
+                        <li>
+                          <img src="assets/uploads/icons/1.svg" alt=""> <span> 1 year</span>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="highlights_services ">
+                      <ul>
+                        <li>
+                          <i class="fa fa-refresh"></i> <span> 7 Days Replacement Policy</span>
+                          <span class="question">?</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <div class="seller">
+                  <p>
+                    Seller
+                  </p>
+
+                </div>
+              </div>
+              <div class="col-md-9">
+
+
+                <div class="seller">
+                  <h5>
+                    CORSECA <span class="seller_ratting">4.8 <i class="fa fa-star"></i></span>
+                  </h5>
+
+                  <ul class="corseca">
+                    <li *ngFor="let cour of corseca">
+                      {{cour.corTest}} <span class="question">{{cour.question_mark}}</span>
+                    </li>
+                  </ul>
+                  <p>
+                    View <a href="#">more sellers</a> starting from ₹1,199
+                  </p>
+                </div>
+
+              </div>
+            </div>
+            <div class="text-center">
+              <img src="assets/uploads/products/CCO__PP_2019-07-14.webp" width="200" class="img-fluid" alt="">
+            </div>
+
+            <div class="row">
+              <div class="col-md-3">
+                <div class="description">
+                  <p>
+                    Description
+                  </p>
+
+                </div>
+              </div>
+              <div class="col-md-9">
+
+
+                <div class="description_p">
+                  <p>
+                    {{descriptionPra}}
+                  </p>
+                </div>
+
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="product_description">
+                  <p>
+                    Product Description
+                  </p>
+
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="product_description">
+                  <img src="assets/uploads/products/bout_1.webp" class="img-fluid" />
+                </div>
+              </div>
+              <div class="col-md-9">
+
+
+                <div class="product_description_p" *ngFor="let proDes of product_description">
+                  <h5>
+                    {{proDes.name}}
+                  </h5>
+                  <p>
+                    {{proDes.name2}}
+                  </p>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="row">
+
+
+              <div class="col-md-9">
+
+
+                <div class="product_description_p" *ngFor="let proDes of product_description">
+                  <h5>
+                    {{proDes.nameT2}}
+                  </h5>
+                  <p>
+                    {{proDes.name2}}
+                  </p>
+                </div>
+
+              </div>
+              <div class="col-md-3">
+                <div class="product_description">
+                  <img src="assets/uploads/products/bout_1.webp" class="img-fluid" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+

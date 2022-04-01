@@ -1,0 +1,113 @@
+
+<!-- Footer -->
+<footer>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-7 col-sm-12">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="footer_heading">
+              <h6>
+                ABOUT:
+              </h6>
+            </div>
+            <div class="footer_menus">
+              <ul>
+                <li *ngFor="let fAbout of fAboutMenus">
+                  <a href="#">
+                    {{fAbout.name}}
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+          <div class="col-md-3">
+            <div class="footer_heading">
+              <h6>
+                HELP:
+              </h6>
+            </div>
+            <div class="footer_menus">
+              <ul>
+                <li *ngFor="let fAbout of fHelpeMenus">
+                  <a href="#">
+                    {{fAbout.name}}
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer_heading">
+              <h6>
+                POLICY:
+              </h6>
+            </div>
+            <div class="footer_menus">
+              <ul>
+                <li *ngFor="let fAbout of fPolicyMenus">
+                  <a href="#">
+                    {{fAbout.name}}
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="footer_heading">
+              <h6>
+                SOCIAL:
+              </h6>
+            </div>
+            <div class="footer_menus">
+              <ul>
+                <li *ngFor="let fAbout of fSocialMenus">
+                  <a href="#">
+                    {{fAbout.name}}
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-5 col-sm-12">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="footer_heading">
+              <h6>
+                Mail Us:
+              </h6>
+              <p>
+                Flipkart Internet Private Limited,<br>
+                Buildings Alyssa, Begonia &<br>
+                Clove Embassy Tech Village,<br>
+                Outer Ring Road, Devarabeesanahalli Village,<br>
+                Bengaluru, 560103,<br>
+                Karnataka, India
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="footer_heading">
+              <h6>
+                Registered Office Address:
+              </h6>
+            </div>
+            <ul class="register_address">
+              <li *ngFor="let rOA of registeredOfficeAddress">
+                {{rOA.name}}
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</footer>

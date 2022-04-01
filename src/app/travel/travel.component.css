@@ -1,0 +1,59 @@
+.bg_ing {
+    position: relative;
+    height: 500px;
+}
+
+.trave_form {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    background-color: #ffffff;
+    width: 90%;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.form-check {
+    margin: 0px 10px;
+}
+.form_to, .from{
+    width: 100%;
+}
+.middle_icon{
+    width: 20%;
+    margin-top: 4px;
+}
+.from {
+    margin-right: 15px;
+    position: relative;
+}
+.form_to {
+    margin-left: 5px;
+}
+.from input {
+    padding: 20px 10px;
+}
+.form_to input {
+    padding: 20px 10px;
+}
+/* .fleft{
+    position: relative;
+} */
+middle_icon{
+   position: relative;
+   top: 10px;
+   right: 10px;
+}
+
+.cards{
+    /* position: relative;
+    top: 57%; */
+    padding: 30px 0px;
+    background: #ffffff;
+    /* width: 98%; */
+    margin-top: 85px;
+}
+
+.travel_cards{
+    cursor: pointer;
+}
